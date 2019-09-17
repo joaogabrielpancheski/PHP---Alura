@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86866186-8aa8-4f2a-a29f-12d2b1e0bb37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/avancando-php/banco.php" beforeDir="false" afterPath="$PROJECT_DIR$/avancando-php/banco.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/avancando-php/funcoes.php" beforeDir="false" afterPath="$PROJECT_DIR$/avancando-php/funcoes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avancando-php/listas.php" beforeDir="false" afterPath="$PROJECT_DIR$/avancando-php/listas.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +53,7 @@
       <workItem from="1568651226086" duration="14498000" />
       <workItem from="1568720157182" duration="104000" />
       <workItem from="1568720331837" duration="555000" />
-      <workItem from="1568721198992" duration="6974000" />
+      <workItem from="1568721198992" duration="9648000" />
     </task>
     <servers />
   </component>
