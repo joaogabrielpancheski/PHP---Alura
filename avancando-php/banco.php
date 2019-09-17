@@ -19,8 +19,13 @@ $contasCorrentes = [
 
 $contasCorrentes['123.456.489-11'] = sacar($contasCorrentes['123.456.489-11'], 500);
 $contasCorrentes['123.456.789-10'] = sacar($contasCorrentes['123.456.789-10'], 1500);
-$contasCorrentes['123.456.789-10'] = depositar($contasCorrentes['123.456.789-10'], 3800);
+$contasCorrentes['123.456.789-10'] = depositar($contasCorrentes['123.456.789-10'], 800);
+
+titularComLetrasMaiusculas($contasCorrentes['123.456.789-10']);
+
+unset($contasCorrentes['123.456.789-10']);
 
 foreach ($contasCorrentes as $cpf => $conta) {
-    exibeMensagem("$cpf - {$conta['titular']} - {$conta['saldo']}");
+    ['titular' => $titular, 'saldo' => $saldo] = $conta;
+    exibeMensagem("$cpf - $titular - $saldo");
 }
