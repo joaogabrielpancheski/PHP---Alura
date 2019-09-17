@@ -2,10 +2,10 @@
 
 class ContaCorrente {
 
-    public $titular;
+    private $titular;
     public $agencia;
-    public $numero;
-    public $saldo;
+    private $numero;
+    private $saldo;
 
     public function __construct ($titular, $agencia, $numero, $saldo) {
         $this->titular = $titular;
@@ -23,4 +23,17 @@ class ContaCorrente {
         $this->saldo = $this->saldo + $valor;
         return $this;
     }
+
+    public function getTitular () {
+        return $this->titular;
+    }
+
+    public function getSaldo () {
+        return $this->saldo;
+    }
+
+    public function setNumero ($numero) {
+        return $this->numero = $numero;
+    }
 }
+
