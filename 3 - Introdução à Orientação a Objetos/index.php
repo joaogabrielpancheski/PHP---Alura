@@ -12,12 +12,10 @@ $contaMaria = new ContaCorrente("Maria", "1212", "343445-4", 1500.00);
 var_dump($contaJoao);
 var_dump($contaMaria);
 
-$contaJoao->sacar(400.90);
-$contaMaria->depositar(523.79);
+$contaJoao->transferir(250.00, $contaMaria);
 
 var_dump($contaJoao);
 var_dump($contaMaria);
-
 
 
 
