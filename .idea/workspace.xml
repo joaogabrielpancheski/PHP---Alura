@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86866186-8aa8-4f2a-a29f-12d2b1e0bb37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4 - Avançando com Orientação a Objetos/classes/abstratas/Funcionario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4 - Avançando com Orientação a Objetos/classes/interfaces/Autenticavel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4 - Avançando com Orientação a Objetos/classes/sistemaInterno/GerenciadorBonificacao.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4 - Avançando com Orientação a Objetos/classes/funcionarios/Designer.php" beforeDir="false" afterPath="$PROJECT_DIR$/4 - Avançando com Orientação a Objetos/classes/funcionarios/Designer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4 - Avançando com Orientação a Objetos/classes/abstratas/Funcionario.php" beforeDir="false" afterPath="$PROJECT_DIR$/4 - Avançando com Orientação a Objetos/classes/abstratas/Funcionario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4 - Avançando com Orientação a Objetos/classes/abstratas/FuncionarioAutenticavel.php" beforeDir="false" afterPath="$PROJECT_DIR$/4 - Avançando com Orientação a Objetos/classes/abstratas/FuncionarioAutenticavel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4 - Avançando com Orientação a Objetos/classes/funcionarios/Diretor.php" beforeDir="false" afterPath="$PROJECT_DIR$/4 - Avançando com Orientação a Objetos/classes/funcionarios/Diretor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4 - Avançando com Orientação a Objetos/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/4 - Avançando com Orientação a Objetos/index.php" afterDir="false" />
     </list>
@@ -57,7 +59,7 @@
       <workItem from="1568720331837" duration="555000" />
       <workItem from="1568721198992" duration="10036000" />
       <workItem from="1568738262361" duration="13051000" />
-      <workItem from="1568804268917" duration="1370000" />
+      <workItem from="1568804268917" duration="6192000" />
     </task>
     <servers />
   </component>
