@@ -2,6 +2,8 @@
 
 namespace classes\funcionarios;
 
-class Diretor {
+use classes\abstratas\Funcionario;
+
+class Diretor extends Funcionario {
 
 }
