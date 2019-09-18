@@ -16,7 +16,7 @@ class Validacao {
 
     public static function verificaNumeroPositivo ($valor) {
         if ($valor <= 0) {
-            throw new InvalidArgumentException("O valor não é permitido!");
+            throw new Exception("O valor não é permitido!");
         }
     }
 

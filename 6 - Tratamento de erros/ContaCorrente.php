@@ -36,7 +36,12 @@ class ContaCorrente {
         try {
             Validacao::verificaNumerico($valor);
             Validacao::verificaNumeroPositivo($valor);
+        } catch (InvalidArgumentException $erro) {
+            echo "InvalidArgumentException" . PHP_EOL;
+            echo $erro->getMessage() . PHP_EOL;
+            exit();
         } catch (Exception $erro) {
+            echo "Exception" . PHP_EOL;
             echo $erro->getMessage() . PHP_EOL;
             exit();
         }
