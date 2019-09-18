@@ -3,6 +3,7 @@
 require_once "autoload.php";
 
 use exception\SaldoInsuficienteException;
+use exception\OperacaoNaoRealizadaException;
 
 class ContaCorrente {
 
@@ -13,6 +14,7 @@ class ContaCorrente {
     public static $totalDeContas;
     public static $taxaOperacao;
     public $totalSaquesNaoPermitidos;
+    public static $operacaoNaoRealizada;
 
     public function __construct ($titular, $agencia, $numero, $saldo) {
         $this->titular = $titular;
@@ -39,6 +41,7 @@ class ContaCorrente {
             Validacao::verificaNumerico($valor);
             Validacao::verificaNumeroPositivo($valor);
             Validacao::validarSaldo($valor, $this->saldo);
+            $this->saldo = $this->saldo - $valor;
         } catch (InvalidArgumentException $erro) {
             echo $erro->getMessage() . PHP_EOL;
         } catch (SaldoInsuficienteException $erro) {
@@ -49,7 +52,6 @@ class ContaCorrente {
         } catch (\Exception $erro) {
             echo $erro->getMessage() . PHP_EOL;
         }
-        $this->saldo = $this->saldo - $valor;
         return $this;
     }
 
@@ -59,22 +61,29 @@ class ContaCorrente {
             Validacao::verificaNumeroPositivo($valor);
         } catch (InvalidArgumentException $erro) {
             echo $erro->getMessage() . PHP_EOL;
+            return;
         } catch (\Exception $erro) {
             echo $erro->getMessage() . PHP_EOL;
+            return;
         }
         $this->saldo = $this->saldo + $valor;
         return $this;
     }
 
     public function transferir ($valor, ContaCorrente $contaCorrente) {
-        $saldoAnterior = $this->saldo;
-        $this->sacar($valor);
+        try {
+            $saldoAnterior = $this->saldo;
+            $this->sacar($valor);
 
-        if ($saldoAnterior == ($this->saldo - $valor)) {
-            $contaCorrente->depositar($valor);
+            if ($saldoAnterior == ($this->saldo - $valor)) {
+                $contaCorrente->depositar($valor);
+            }
+
+            return $this;
+        } catch (\Exception $e) {
+            ContaCorrente::$operacaoNaoRealizada++;
+            throw new exception\OperacaoNaoRealizadaException("Operação não realizada", 55);
         }
-
-        return $this;
     }
 
     public function __get ($atributo) {
@@ -82,6 +91,7 @@ class ContaCorrente {
             Validacao::protegeAtributo($atributo);
         } catch (\Exception $erro) {
             echo $erro->getMessage() . PHP_EOL;
+            return;
         }
 
         return $this->$atributo;
@@ -92,6 +102,7 @@ class ContaCorrente {
             Validacao::protegeAtributo($atributo);
         } catch (\Exception $erro) {
             echo $erro->getMessage() . PHP_EOL;
+            return;
         }
 
         $this->$atributo = $valor;
