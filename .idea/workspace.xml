@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86866186-8aa8-4f2a-a29f-12d2b1e0bb37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/2 - Saldos/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/3 - Nomes/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/4 - Remoção/ArrayUtils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/4 - Remoção/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/Calculadora.php" beforeDir="false" afterPath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/1 - Notas/Calculadora.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/1 - Notas/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +64,7 @@
       <workItem from="1568720331837" duration="555000" />
       <workItem from="1568721198992" duration="10036000" />
       <workItem from="1568738262361" duration="13051000" />
-      <workItem from="1568804268917" duration="11668000" />
+      <workItem from="1568804268917" duration="13238000" />
     </task>
     <servers />
   </component>
