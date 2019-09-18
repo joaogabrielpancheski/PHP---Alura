@@ -1,5 +1,9 @@
 <?php
 
+require_once "autoload.php";
+
+use exception\SaldoInsuficienteException;
+
 class ContaCorrente {
 
     private $titular;
@@ -8,17 +12,15 @@ class ContaCorrente {
     private $saldo;
     public static $totalDeContas;
     public static $taxaOperacao;
+    public $totalSaquesNaoPermitidos;
 
     public function __construct ($titular, $agencia, $numero, $saldo) {
         $this->titular = $titular;
         $this->agencia = $agencia;
         $this->numero = $numero;
         $this->saldo = $saldo;
-
         self::$totalDeContas++;
-
         self::calculaTaxaOperacao();
-
     }
 
     public static function calculaTaxaOperacao () {
@@ -32,44 +34,53 @@ class ContaCorrente {
         }
     }
 
-    private function validarValor ($valor) {
+    public function sacar ($valor) {
         try {
             Validacao::verificaNumerico($valor);
             Validacao::verificaNumeroPositivo($valor);
+            Validacao::validarSaldo($valor, $this->saldo);
         } catch (InvalidArgumentException $erro) {
-            echo "InvalidArgumentException" . PHP_EOL;
             echo $erro->getMessage() . PHP_EOL;
-            exit();
-        } catch (Exception $erro) {
-            echo "Exception" . PHP_EOL;
+        } catch (SaldoInsuficienteException $erro) {
+            $this->totalSaquesNaoPermitidos++;
+            echo $erro->getMessage() .
+                " Saldo em conta: ".$erro->saldo .
+                ". Valor do saque: ".$erro->valor."." . PHP_EOL;
+        } catch (\Exception $erro) {
             echo $erro->getMessage() . PHP_EOL;
-            exit();
         }
-    }
-
-    public function sacar ($valor) {
-        $this->validarValor($valor);
         $this->saldo = $this->saldo - $valor;
         return $this;
     }
 
     public function depositar ($valor) {
-        $this->validarValor($valor);
+        try {
+            Validacao::verificaNumerico($valor);
+            Validacao::verificaNumeroPositivo($valor);
+        } catch (InvalidArgumentException $erro) {
+            echo $erro->getMessage() . PHP_EOL;
+        } catch (\Exception $erro) {
+            echo $erro->getMessage() . PHP_EOL;
+        }
         $this->saldo = $this->saldo + $valor;
         return $this;
     }
 
     public function transferir ($valor, ContaCorrente $contaCorrente) {
-        $this->validarValor($valor);
+        $saldoAnterior = $this->saldo;
         $this->sacar($valor);
-        $contaCorrente->depositar($valor);
+
+        if ($saldoAnterior == ($this->saldo - $valor)) {
+            $contaCorrente->depositar($valor);
+        }
+
         return $this;
     }
 
     public function __get ($atributo) {
         try {
             Validacao::protegeAtributo($atributo);
-        } catch (Exception $erro) {
+        } catch (\Exception $erro) {
             echo $erro->getMessage() . PHP_EOL;
         }
 
@@ -79,7 +90,7 @@ class ContaCorrente {
     public function __set($atributo, $valor) {
         try {
             Validacao::protegeAtributo($atributo);
-        } catch (Exception $erro) {
+        } catch (\Exception $erro) {
             echo $erro->getMessage() . PHP_EOL;
         }
 

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86866186-8aa8-4f2a-a29f-12d2b1e0bb37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/6 - Tratamento de erros/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 - Tratamento de erros/exception/SaldoInsuficienteException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6 - Tratamento de erros/ContaCorrente.php" beforeDir="false" afterPath="$PROJECT_DIR$/6 - Tratamento de erros/ContaCorrente.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6 - Tratamento de erros/Validacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/6 - Tratamento de erros/Validacao.php" afterDir="false" />
@@ -70,7 +72,7 @@
       <workItem from="1568721198992" duration="10036000" />
       <workItem from="1568738262361" duration="13051000" />
       <workItem from="1568804268917" duration="14740000" />
-      <workItem from="1568824271227" duration="7191000" />
+      <workItem from="1568824271227" duration="11762000" />
     </task>
     <servers />
   </component>
