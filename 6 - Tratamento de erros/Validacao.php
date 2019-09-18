@@ -10,7 +10,13 @@ class Validacao {
 
     public static function verificaNumerico ($valor) {
         if (!is_numeric($valor)) {
-            throw new Exception("O tipo de dado passado não é um número válido!");
+            throw new InvalidArgumentException("O tipo de dado passado não é um número válido!");
+        }
+    }
+
+    public static function verificaNumeroPositivo ($valor) {
+        if ($valor <= 0) {
+            throw new InvalidArgumentException("O valor não é permitido!");
         }
     }
 

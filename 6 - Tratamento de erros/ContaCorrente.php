@@ -29,36 +29,55 @@ class ContaCorrente {
             self::$taxaOperacao = 30 / self::$totalDeContas;
         } catch (\DivisionByZeroError $erro) {
             echo $erro->getMessage() . PHP_EOL;
+        }
+    }
+
+    private function validarValor ($valor) {
+        try {
+            Validacao::verificaNumerico($valor);
+            Validacao::verificaNumeroPositivo($valor);
+        } catch (Exception $erro) {
+            echo $erro->getMessage() . PHP_EOL;
             exit();
         }
     }
 
     public function sacar ($valor) {
-        Validacao::verificaNumerico($valor);
+        $this->validarValor($valor);
         $this->saldo = $this->saldo - $valor;
         return $this;
     }
 
     public function depositar ($valor) {
-        Validacao::verificaNumerico($valor);
+        $this->validarValor($valor);
         $this->saldo = $this->saldo + $valor;
         return $this;
     }
 
     public function transferir ($valor, ContaCorrente $contaCorrente) {
-        Validacao::verificaNumerico($valor);
+        $this->validarValor($valor);
         $this->sacar($valor);
         $contaCorrente->depositar($valor);
         return $this;
     }
 
     public function __get ($atributo) {
-        Validacao::protegeAtributo($atributo);
+        try {
+            Validacao::protegeAtributo($atributo);
+        } catch (Exception $erro) {
+            echo $erro->getMessage() . PHP_EOL;
+        }
+
         return $this->$atributo;
     }
 
     public function __set($atributo, $valor) {
-        Validacao::protegeAtributo($atributo);
+        try {
+            Validacao::protegeAtributo($atributo);
+        } catch (Exception $erro) {
+            echo $erro->getMessage() . PHP_EOL;
+        }
+
         $this->$atributo = $valor;
     }
 
