@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86866186-8aa8-4f2a-a29f-12d2b1e0bb37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/4 - Remoção/ArrayUtils.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/4 - Remoção/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/5 - Autoload/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/5 - Autoload/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/5 - Autoload/src/Alura/ArrayUtils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/5 - Autoload/src/Alura/Calculadora.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/4 - Remoção/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/4 - Remoção/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,13 +27,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/5 - Manipulando coleções com Arrays" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/5 - Manipulando coleções com Arrays/5 - Autoload" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\i22111\Documents\PHP\5 - Manipulando coleções com Arrays\5 - Autoload" />
       <recent name="C:\Users\i22111\Documents\PHP\5 - Manipulando coleções com Arrays" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\i22111\Documents\PHP\5 - Manipulando coleções com Arrays\5 - Autoload\src\Alura" />
       <recent name="C:\Users\i22111\Documents\PHP\5 - Manipulando coleções com Arrays\2 - Saldos" />
       <recent name="C:\Users\i22111\Documents\PHP\5 - Manipulando coleções com Arrays\1 - Notas" />
     </key>
@@ -64,7 +69,7 @@
       <workItem from="1568720331837" duration="555000" />
       <workItem from="1568721198992" duration="10036000" />
       <workItem from="1568738262361" duration="13051000" />
-      <workItem from="1568804268917" duration="13238000" />
+      <workItem from="1568804268917" duration="14137000" />
     </task>
     <servers />
   </component>

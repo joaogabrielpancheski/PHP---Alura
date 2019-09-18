@@ -1,6 +1,8 @@
 <?php declare(strict_types=1);
 
-require_once "ArrayUtils.php";
+namespace Alura;
+
+require_once "autoload.php";
 
 $correntistas_e_compras = [
     "Giovanni",
@@ -16,7 +18,7 @@ $correntistas_e_compras = [
 echo "<pre>";
 var_dump($correntistas_e_compras);
 
-ArrayUtils::remover("12", $correntistas_e_compras);
+ArrayUtils::remover(12, $correntistas_e_compras);
 
 var_dump($correntistas_e_compras);
 echo "</pre>";
