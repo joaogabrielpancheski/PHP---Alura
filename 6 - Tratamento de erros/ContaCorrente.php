@@ -72,6 +72,11 @@ class ContaCorrente {
 
     public function transferir ($valor, ContaCorrente $contaCorrente) {
         try {
+            $arquivo = new LeitorArquivo("logTransferencia.txt");
+
+            $arquivo->abrirArquivo();
+            $arquivo->escreverArquivo();
+
             $saldoAnterior = $this->saldo;
             $this->sacar($valor);
 
@@ -83,6 +88,8 @@ class ContaCorrente {
         } catch (\Exception $e) {
             ContaCorrente::$operacaoNaoRealizada++;
             throw new exception\OperacaoNaoRealizadaException("Operação não realizada", 55);
+        } finally {
+            $arquivo->fecharArquivo();
         }
     }
 

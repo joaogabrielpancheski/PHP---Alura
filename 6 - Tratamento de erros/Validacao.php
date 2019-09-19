@@ -14,6 +14,7 @@ class Validacao {
         }
     }
 
+
     public static function verificaNumeroPositivo ($valor) {
         if ($valor <= 0) {
             throw new \Exception("O valor não é permitido!");
