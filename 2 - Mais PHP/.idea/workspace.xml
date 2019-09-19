@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86866186-8aa8-4f2a-a29f-12d2b1e0bb37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../3 - PHP Moderno/buscador-cursos-alura/.idea/buscador-cursos-alura.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 - PHP Moderno/buscador-cursos-alura/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 - PHP Moderno/buscador-cursos-alura/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 - PHP Moderno/buscador-cursos-alura/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/php-primeiros-passos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 - Introdução ao PHP/decisoes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 - Introdução ao PHP/desafios/imc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 - Introdução ao PHP/desafios/impares.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 - Introdução ao PHP/desafios/tabuada.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 - Introdução ao PHP/ola-mundo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 - Introdução ao PHP/operacoes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 - Introdução ao PHP/repeticao-2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 - Introdução ao PHP/repeticao.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 - Introdução ao PHP/strings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 - Introdução ao PHP/tipos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 - Introdução ao PHP/variavel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - Avançando com PHP/banco.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - Avançando com PHP/carros.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - Avançando com PHP/contas-correntes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - Avançando com PHP/foreach.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - Avançando com PHP/funcoes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - Avançando com PHP/listas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - Avançando com PHP/loop-lista.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - Avançando com PHP/tipos_chaves.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - Introdução à Orientação a Objetos/ContaCorrente.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - Introdução à Orientação a Objetos/Validacao.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - Introdução à Orientação a Objetos/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - Avançando com Orientação a Objetos/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - Avançando com Orientação a Objetos/classes/abstratas/Funcionario.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - Avançando com Orientação a Objetos/classes/abstratas/FuncionarioAutenticavel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - Avançando com Orientação a Objetos/classes/funcionarios/Designer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - Avançando com Orientação a Objetos/classes/funcionarios/Diretor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - Avançando com Orientação a Objetos/classes/interfaces/Autenticavel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - Avançando com Orientação a Objetos/classes/sistemaInterno/GerenciadorBonificacao.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - Avançando com Orientação a Objetos/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - Manipulando coleções com Arrays/1 - Notas/Calculadora.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - Manipulando coleções com Arrays/1 - Notas/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - Manipulando coleções com Arrays/2 - Saldos/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - Manipulando coleções com Arrays/3 - Nomes/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - Manipulando coleções com Arrays/4 - Remoção/ArrayUtils.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - Manipulando coleções com Arrays/4 - Remoção/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - Manipulando coleções com Arrays/5 - Autoload/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - Manipulando coleções com Arrays/5 - Autoload/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - Manipulando coleções com Arrays/5 - Autoload/src/Alura/ArrayUtils.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - Manipulando coleções com Arrays/5 - Autoload/src/Alura/Calculadora.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - Manipulando coleções com Arrays/6 - Arrays associativos/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - Manipulando coleções com Arrays/6 - Arrays associativos/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - Manipulando coleções com Arrays/6 - Arrays associativos/src/Alura/ArrayUtils.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - Tratamento de erros/ContaCorrente.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - Tratamento de erros/LeitorArquivo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - Tratamento de erros/Validacao.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - Tratamento de erros/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - Tratamento de erros/exception/OperacaoNaoRealizadaException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - Tratamento de erros/exception/SaldoInsuficienteException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - Tratamento de erros/index.php" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1QvEHiaEOHKJ4zRt48GDnF9uteJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../3 - PHP Moderno/buscador-cursos-alura" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\i22111\Documents\PHP\5 - Manipulando coleções com Arrays\5 - Autoload\src\Alura" />
+      <recent name="C:\Users\i22111\Documents\PHP\5 - Manipulando coleções com Arrays\2 - Saldos" />
+      <recent name="C:\Users\i22111\Documents\PHP\5 - Manipulando coleções com Arrays\1 - Notas" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\i22111\Documents\PHP\6 - Tratamento de erros" />
+      <recent name="C:\Users\i22111\Documents\PHP\5 - Manipulando coleções com Arrays\6 - Arrays associativos" />
+      <recent name="C:\Users\i22111\Documents\PHP\5 - Manipulando coleções com Arrays\5 - Autoload" />
+      <recent name="C:\Users\i22111\Documents\PHP\5 - Manipulando coleções com Arrays" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86866186-8aa8-4f2a-a29f-12d2b1e0bb37" name="Default Changelist" comment="" />
+      <created>1568642584152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568642584152</updated>
+      <workItem from="1568642586615" duration="176000" />
+      <workItem from="1568642801299" duration="3201000" />
+      <workItem from="1568651226086" duration="14498000" />
+      <workItem from="1568720157182" duration="104000" />
+      <workItem from="1568720331837" duration="555000" />
+      <workItem from="1568721198992" duration="10036000" />
+      <workItem from="1568738262361" duration="13051000" />
+      <workItem from="1568804268917" duration="14740000" />
+      <workItem from="1568824271227" duration="15580000" />
+      <workItem from="1568890259637" duration="3349000" />
+      <workItem from="1568893974265" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
