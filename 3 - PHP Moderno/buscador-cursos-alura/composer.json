@@ -8,5 +8,9 @@
       "email": "jgabrielpancheski@icloud.com"
     }
   ],
-  "require": {}
+  "require": {
+    "symfony/dom-crawler": "^4.3",
+    "guzzlehttp/guzzle": "^6.3",
+    "symfony/css-selector": "^4.3"
+  }
 }
