@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Alura\BuscadorDeCursos;
 
 use GuzzleHttp\ClientInterface;
@@ -17,14 +16,14 @@ class Buscador
      */
     private $crawler;
 
-    public function __construct (ClientInterface $httpClient, Crawler $crawler)
+    public function __construct(ClientInterface $httpClient, Crawler $crawler)
     {
 
         $this->httpClient = $httpClient;
         $this->crawler = $crawler;
     }
 
-    public function buscar (string $url) : array
+    public function buscar(string $url) : array
     {
         $resposta = $this->httpClient->request('GET', $url);
 
