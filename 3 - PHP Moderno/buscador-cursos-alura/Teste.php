@@ -1,18 +1,17 @@
 <?php
 
+use Alura\BuscadorDeCursos\Buscador;
+use GuzzleHttp\Client;
+use Symfony\Component\DomCrawler\Crawler;
 
-class Teste
-{
-    public static function metodo () {
-        echo "teste";
-    }
+require 'vendor/autoload.php';
 
-}
+$client = new Client(['base_uri' => 'https://www.alura.com.br/']);
+$crawler = new Crawler();
 
-class Teste2
-{
-    public static function metodo () {
-        echo "teste";
-    }
+$buscador = new Buscador($client, $crawler);
+$cursos = $buscador->buscar('cursos-online-programacao/php');
 
+foreach ($cursos as $curso) {
+    echo $curso . PHP_EOL;
 }
